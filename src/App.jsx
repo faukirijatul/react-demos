@@ -15,16 +15,21 @@
 // import UserList from "./components/UserList";
 // import WelcomeMessage from "./components/WelcomeMessage";
 
-import IconComponent from "./components/IconComponent";
-import ProfileCard from "./components/ProfileCard";
-import StyledCard from "./components/StyledCard";
+import Counter from "./components/Counter";
+import Profile from "./components/Profile";
+import ShoppingList from "./components/ShoppingList";
+// import IconComponent from "./components/IconComponent";
+// import ProfileCard from "./components/ProfileCard";
+// import StyledCard from "./components/StyledCard";
+import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
     <section>
-      <StyledCard />
-      <ProfileCard />
-      <IconComponent />
+      <Counter />
+      <TodoList />
+      <Profile />
+      <ShoppingList />
     </section>
   );
 };
