@@ -6,8 +6,11 @@
 // import Greeting from "./components/Greeting";
 // import JSXRules from "./components/JSXRules";
 // import ProductInfo from "./components/ProductInfo";
-import Person from "./components/Person";
-import Product from "./components/Product";
+import Greeting2 from "./components/Greeting2";
+// import Person from "./components/Person";
+// import Product from "./components/Product";
+import UserStatus from "./components/UserStatus";
+import Weather from "./components/Weather";
 // import ProductList from "./components/ProductList";
 // import UserList from "./components/UserList";
 // import WelcomeMessage from "./components/WelcomeMessage";
@@ -15,8 +18,9 @@ import Product from "./components/Product";
 const App = () => {
   return (
     <section>
-      <Person name="Fauki" age={28} />
-      <Product name="Laptop" price={1999} />
+      <Weather temperature={27} />
+      <UserStatus loggedIn={true} isAdmin={false} />
+      <Greeting2 timeOfDay="afternoon" />
     </section>
   );
 };
