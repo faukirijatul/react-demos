@@ -6,21 +6,25 @@
 // import Greeting from "./components/Greeting";
 // import JSXRules from "./components/JSXRules";
 // import ProductInfo from "./components/ProductInfo";
-import Greeting2 from "./components/Greeting2";
+// import Greeting2 from "./components/Greeting2";
 // import Person from "./components/Person";
 // import Product from "./components/Product";
-import UserStatus from "./components/UserStatus";
-import Weather from "./components/Weather";
+// import UserStatus from "./components/UserStatus";
+// import Weather from "./components/Weather";
 // import ProductList from "./components/ProductList";
 // import UserList from "./components/UserList";
 // import WelcomeMessage from "./components/WelcomeMessage";
 
+import IconComponent from "./components/IconComponent";
+import ProfileCard from "./components/ProfileCard";
+import StyledCard from "./components/StyledCard";
+
 const App = () => {
   return (
     <section>
-      <Weather temperature={27} />
-      <UserStatus loggedIn={true} isAdmin={false} />
-      <Greeting2 timeOfDay="afternoon" />
+      <StyledCard />
+      <ProfileCard />
+      <IconComponent />
     </section>
   );
 };
